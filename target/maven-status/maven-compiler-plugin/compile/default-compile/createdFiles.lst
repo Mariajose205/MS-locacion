@@ -1,0 +1,8 @@
+com\fitlife\location\dto\LocationUpdateRequest.class
+com\fitlife\location\LocationManagementApplication.class
+com\fitlife\location\dto\LocationResponse.class
+com\fitlife\location\controller\LocationController.class
+com\fitlife\location\dto\LocationRequest.class
+com\fitlife\location\entity\Location.class
+com\fitlife\location\repository\LocationRepository.class
+com\fitlife\location\service\LocationService.class
