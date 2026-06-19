@@ -45,8 +45,6 @@ jobs:
           tags: |
             ${{ secrets.DOCKER_USERNAME }}/fitlife-location:latest
             ${{ secrets.DOCKER_USERNAME }}/fitlife-location:${{ github.sha }}
-          cache-from: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/fitlife-location:buildcache
-          cache-to: type=registry,ref=${{ secrets.DOCKER_USERNAME }}/fitlife-location:buildcache,mode=max
 
   deploy:
     needs: build
